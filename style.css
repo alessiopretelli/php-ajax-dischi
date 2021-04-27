@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(34, 38, 59);
+}
+
+
+/* header */
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(35, 33, 51);
+    padding: 0 15%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 150px;
+}
+.logo img {
+    cursor: pointer;
+    width: 40%;
+}
+
+
+/* main */
+
+main {
+    width: 100%;
+    padding: 0 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    cursor: pointer;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    width: 250px;
+    padding: 25px 0;
+    margin: 30px;
+}
+.card img {
+    width: 200px;
+}
+.card h3 {
+    margin: 10px 0;
+    color: white;
+}
+.card p {
+    margin-top: 10px;
+    color: rgb(240, 240, 240);
+}
