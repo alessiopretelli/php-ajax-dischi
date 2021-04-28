@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(34, 38, 59);
+}
+
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(35, 33, 51);
+    padding: 0 15%;
+}
+
+.logo {
+    width: 150px;
+}
+.logo img {
+    cursor: pointer;
+    width: 30%;
+}
+
+.select label {
+    color: white;
+    margin-right: 5px;
+}
+.select select {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* main */
+
+main {
+    width: 100%;
+    padding: 0 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    cursor: pointer;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    width: 250px;
+    padding: 25px 0;
+    margin: 30px;
+}
+.card.block {
+    display: block;
+}
+.card.none {
+    display: none;
+}
+.card img {
+    width: 200px;
+}
+.card h3 {
+    margin: 10px 0;
+    color: white;
+}
+.card p {
+    margin-top: 10px;
+    color: rgb(240, 240, 240);
+}
+.card p:last-of-type {
+    font-weight: 600;
+}
